@@ -1,0 +1,16 @@
+services :
+    frontend :
+        build :
+          context:  ./frontend
+          dockerfile : Dockerfile
+        networks :
+          -  transcendance
+    backend :
+        build :
+          context:  ./backend
+          dockerfile : Dockerfile
+        networks :
+          -  transcendance
+        ports :
+          -  "3000:3000"
+        

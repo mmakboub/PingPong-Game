@@ -1,2 +1,1 @@
-# PingPong-Game
-PingPong Game
+# ft_transcendence
